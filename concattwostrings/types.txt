@@ -1,0 +1,8 @@
+foldr :: (a -> b -> b) -> b -> [a] -> b
+unsafePerformIO :: IO a -> a 
+peekCString :: CString -> IO String
+newCString :: String -> IO CString
+fmap :: Functor f => (a -> b) -> f a -> f b
+peek :: Ptr a -> IO a
+poke :: Ptr a -> a -> IO ()
+unsafePerformIO :: IO a -> a 
